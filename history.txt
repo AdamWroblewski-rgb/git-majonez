@@ -1,0 +1,43 @@
+  962  cd 2_zadanieDomowe/
+  963  rm -rf git-majonez/
+  964  ls
+  965  mkdir git-majonez
+  966  ls
+  967  cd git-majonez/
+  968  git init
+  969  nano main.cpp
+  970  git add .
+  971  git commit -m"Initial commit"
+  972  nano main.cpp
+  973  git add.
+  974  git add .
+  975  git commit -m"Farewell changed"
+  976  git remote add origin https://github.com/AdamWroblewski-rgb/git-majonez.git
+  977  git push -u origin master
+  978  git branch cs
+  979  git checkout cs
+  980  git branch
+  981  git log
+  982  git reset --hard da33571a0
+  983  git log
+  984  nano main.cpp 
+  985  git add .
+  986  git commit -m"Greetings"
+  987  git push origin cs
+  988  git checkout master
+  989  git merge cs
+  990  nano main.cpp 
+  991  git commit
+  992  git merge cs
+  993  git add.
+  994  git commit
+  995  git merge cs
+  996  git status
+  997  git diff master cs
+  998  nano main.cpp 
+  999  git add main.cpp 
+ 1000  git git status
+ 1001  git status
+ 1002  git commit
+ 1003  history
+ 1004  history | tail -n 45 > history.txt
